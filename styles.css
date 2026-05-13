@@ -1,0 +1,21 @@
+
+:root{
+    --Blue-100: hsl(225, 100%, 94%);
+    --Blue-700: hsl(245, 75%, 52%);
+    --Blue-50: hsl(225, 100%, 98%);
+    --Gray-600: hsl(224, 23%, 55%);
+    --Blue-950: hsl(223, 47%, 23%);
+}
+    
+body{ /* Debí haber separado la carpeta order summary, pero como quiero probar una habilidad vamos a dejarla dentro. Pero el video lo deja aparte y crea una carpeta para IMG*/
+    background-image: url(./order-summary-component-main/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    width: 450px;
+    background-color: white;
+  
+
+}
