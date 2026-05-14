@@ -1,4 +1,8 @@
 
+html{
+    font-family: "Red Hat Display", sans-serif;
+}
+
 :root{
     --Blue-100: hsl(225, 100%, 94%);
     --Blue-700: hsl(245, 75%, 52%);
@@ -11,11 +15,17 @@ body{ /* Debí haber separado la carpeta order summary, pero como quiero probar 
     background-image: url(./order-summary-component-main/images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: var(--Blue-100);
 }
 
 .card{
     width: 450px;
     background-color: white;
-  
+    color: var(--Gray-600)
+}
 
+.title{
+    color: var(--Blue-950) ;
+    font-weight: 900;
+    font-size: 32px;
 }
